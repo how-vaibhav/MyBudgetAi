@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 30px;
+  }
+  .glass-form {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    padding: 30px;
+    width: 100%;
+    max-width: 800px;
+    color: #fff;
+  }
+  .glass-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  table input {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #e91616;
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: 100%;
+  }
+  table input:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .btn-submit {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+  }
