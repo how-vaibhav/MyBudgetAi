@@ -30,4 +30,4 @@ A hackathon prototype built during **Devopia 2.0** in just **48 hours** 🏆.
 1. **Clone the repository**  
    ```bash
    git clone https://github.com/how-vaibhav/MyBudgetAi.git
-   cd MyBudgetAI
+   
